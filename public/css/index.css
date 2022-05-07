@@ -30,16 +30,22 @@ body {
 }
 .layout__content__item {
     margin: 10px 0;
-    background-color: #BBB;
+    background-color: #a19999;
     width: 90%;
+    padding: 10px ;
+    border-radius: 10px;
 }
 
 .item__number {
     height: 50px;
     width: 50px;
-    background: black;
-    color: white;
+    background: #BBB;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    
 }
